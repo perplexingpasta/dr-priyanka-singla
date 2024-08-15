@@ -1,0 +1,989 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.company.com" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preload -->
+    <!-- <link rel="preload" as="image" href="/images/landing-m.webp">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin> -->
+
+    <link rel="stylesheet" href="./output.css" />
+
+    <title>
+      Dr. Priyanka Singla | Best Dermatologist & Skincare Specialist in Rewari
+    </title>
+  </head>
+  <body>
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">
+      Click To Skip To Main Content
+    </a>
+
+    <!-- ============================================ -->
+    <!--                    Navigation                -->
+    <!-- ============================================ -->
+
+    <div id="navigation">
+      <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+                #navbar-menu is on top of the #navigation. This bar places itself 
+                the #navbar-menu so that menu appears behind the #navigation
+            -->
+      </div>
+      <div class="container">
+        <a class="logo" aria-label="click to go to home page" href="/">
+          <!-- THESE ARE FOR COMPANY LOGO IN NAVBAR -->
+          <img
+            class="light"
+            aria-hidden="true"
+            src="/images/ASlogo-dark.png"
+            decoding="async"
+            alt="logo"
+            width="221"
+            height="66"
+          />
+          <img
+            class="dark"
+            aria-hidden="true"
+            src="/images/ASlogo-light.png"
+            decoding="async"
+            loading="lazy"
+            alt="logo"
+            width="221"
+            height="66"
+          />
+        </a>
+
+        <!--Main Nav-->
+        <nav id="navbar-menu">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Visit Us</a></li>
+            <li>
+              <a href="tel:6362840780">+91 63628-40780</a>
+            </li>
+            <li>
+              <a id="navcallnowbtn" href="tel:6362840780" rel="noopener">
+                Call Now
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu">
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ============================================ -->
+      <!--                    HERO                   -->
+      <!-- ============================================ -->
+
+      <section id="hero">
+        <div class="hero-content">
+          <div class="heroText">
+            <h1
+              id="home-h"
+              style="font-family: Halyard-Display; font-weight: 700; margin-top: 0.5em"
+            >
+              Your Journey to Perfect Skin Starts Here
+            </h1>
+            <div class="lowerdivhero">
+              <p>
+                Visit Dr. Priyanka Singla today to start your healthy skin
+                journey!
+              </p>
+              <ul class="hero2">
+                <li>10+ Years of Experience</li>
+                <li>More than 50k satisfied patients</li>
+              </ul>
+            </div>
+            <a class="button-solid heroctabtn" href="#contact" rel="noopener">
+              Book Your Appointment
+            </a>
+            <!-- <a class="button-solid" href="#contact" rel="noopener">Call Now</a> -->
+          </div>
+        </div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="/images/landingAS.jpg" />
+          <source media="(min-width: 601px)" srcset="/images/landingAS.jpg" />
+          <img
+            aria-hidden="true"
+            decoding="async"
+            src="/images/landingAS.jpg"
+            alt="new home"
+            width="275"
+            height="132"
+          />
+        </picture>
+      </section>
+      <!-- <section id="sidebyside-reverse">
+        <div class="container" id="hero2">
+          <div class="content">
+            <p style="margin-bottom: -0.01em">
+              Having skin problems and nothing you have tried is working?
+            </p>
+            <h1 class="title" style="font-family: Montserrat; font-weight: 600">
+              Visit Dr. Priyanka Singla and start your journey to healthy skin
+              today!
+            </h1>
+            <div class="lowerdivhero">
+              <p>Dr. Singla is a renowned dermatologist in Rewari with</p>
+              <ul class="hero2">
+                <li>10+ Years of Experience</li>
+                <li>More than 50k satisfied patients</li>
+              </ul>
+              <a class="button-solid" href="#contact" rel="noopener">
+                Book Your Appointment
+              </a>
+            </div>
+          </div>
+          <picture class="image-box">
+            <source media="(max-width: 600px)" srcset="/images/doctor.jpg" />
+            <source media="(min-width: 601px)" srcset="/images/doctor.jpg" />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/images/doctor.jpg"
+              alt="cabinets"
+              width="400"
+              height="662"
+            />
+          </picture>
+        </div>
+      </section> -->
+
+      <!-- ============================================ -->
+      <!--                  3 Services                  -->
+      <!-- ============================================ -->
+
+      <section id="services" class="services">
+        <div class="card">
+          <picture>
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/images/service1.svg"
+              alt="appliance"
+              width="48"
+              height="48"
+            />
+          </picture>
+          <h2>Derma Care</h2>
+          <p>
+            From acne treatment to skin cancer screenings, you get 360&deg;
+            dermatological care
+          </p>
+        </div>
+        <div class="card">
+          <picture>
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/images/service2.svg"
+              alt="appliance"
+              width="48"
+              height="48"
+            />
+          </picture>
+          <h2>Laser Services</h2>
+          <p>With our laser technology you get precise and lasting results.</p>
+        </div>
+        <div class="card">
+          <picture>
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/images/service3.svg"
+              alt="appliance"
+              width="48"
+              height="48"
+            />
+          </picture>
+          <h2>Botox & Injectables</h2>
+          <p>
+            Personalized treatments to smooth your facial wrinkles for a
+            youthful appearance.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!--                   About                      -->
+      <!-- ============================================ -->
+
+      <section id="sidebyside" class="sidebyside">
+        <div class="container" id="about">
+          <div class="content" style="margin-right: 4em;">
+            <h1 class="about-title">Dr. Priyanka Singla</h1>
+            <h2>MBBS, MD, FCP</h2>
+            <p>
+              Dr. Priyanka Singla is a renowned dermatologist in Rewari,
+              Haryana, with over 9 years of experience. She earned her medical
+              degree from Stanford University School of Medicine and completed
+              her dermatology residency at UCSF.
+              <br />
+              <br />
+              Dr. Singla specializes in treating a wide range of skin
+              conditions, including acne, eczema, psoriasis, and skin cancer,
+              using a personalized approach to patient care.
+              <br />
+              <br />
+              Outside of her professional life, Dr. Singla enjoys hiking,
+              cycling, and painting.
+              <br />
+              Dr. Singla is also a dedicated advocate for healthy living, often
+              educating her patients on skincare and overall wellness. And she
+              is also one of the Best Dermatologist and Skincare Specialist in
+              Rewari, Haryana.
+              <br />
+              <!-- <a class="button-solid" href="#contact" rel="noopener">
+                        Book a consultation now!
+                    </a> -->
+            </p>
+          </div>
+          <picture class="image-box" style="margin-left: 5em; margin-right: 0;">
+            <source media="(max-width: 600px)" srcset="/images/doctor.jpg" />
+            <source media="(min-width: 601px)" srcset="/images/doctor.jpg" />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/images/doctor.jpg"
+              alt="cabinets"
+              width="400"
+              height="662"
+            />
+          </picture>
+        </div>
+      </section>
+
+<!-- ============================================ -->
+<!--                   Logos                      -->
+<!-- ============================================ -->
+
+<!-- <section id="logos-572">
+  <div class="cs-container">
+      <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo1.png" alt="logo" width="287" height="65" loading="lazy" decoding="async">
+      <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo2.png" alt="logo" width="229" height="55" loading="lazy" decoding="async">
+      <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo3.png" alt="logo" width="235" height="53" loading="lazy" decoding="async">
+      <img class="cs-logo" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Logos/logo4.png" alt="logo" width="228" height="61" loading="lazy" decoding="async">
+  </div>
+</section> -->
+                              
+
+      <!-- ============================================ -->
+      <!--                  Services                    -->
+      <!-- ============================================ -->
+
+      <section id="services-885">
+        <div class="cs-container">
+          <div class="cs-content">
+            <!-- <h2 class="cs-title">Innovative Special Equipment</h2>
+              -->
+            <h1 class="services-title">Our Services</h1>
+            <p class="cs-text">
+              Here are some of the most common procedures done at our clinic.
+            </p>
+          </div>
+          <ul class="cs-card-group">
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Acne Treatment</h3>
+                <p class="cs-item-p">
+                  it's actually really easy to treat it lol
+                </p>
+                <!--Backgorund Image-->
+                <picture class="cs-background">
+                  <!--Mobile Image-->
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="/images/acne.jpg"
+                  />
+                  <!--Tablet and above Image-->
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/acne.jpg"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/acne.jpg"
+                    alt="person"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Hair Loss Treatment</h3>
+                <p class="cs-item-p">
+                  be it male baldness or hair thinning, we can fix you
+                </p>
+                <!--Backgorund Image-->
+                <picture class="cs-background">
+                  <!--Mobile Image-->
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="/images/hairloss.jpg"
+                  />
+                  <!--Tablet and above Image-->
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/hairloss.jpg"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/hairloss.jpg"
+                    alt="person"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Anti-aging</h3>
+                <p class="cs-item-p">we'll make you look younger</p>
+                <!--Backgorund Image-->
+                <picture class="cs-background">
+                  <!--Mobile Image-->
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="/images/antiaging.jpg"
+                  />
+                  <!--Tablet and above Image-->
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/antiaging.jpg"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/antiaging.jpg"
+                    alt="person"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Psoriasis and Eczema</h3>
+                <p class="cs-item-p">idk what this is but we can help</p>
+                <!--Backgorund Image-->
+                <picture class="cs-background">
+                  <!--Mobile Image-->
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="/images/eczema.jpg"
+                  />
+                  <!--Tablet and above Image-->
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/eczema.jpg"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/eczema.jpg"
+                    alt="person"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Pigmentation</h3>
+                <p class="cs-item-p">
+                  with laser machines we can treat your hyperpigmented skin
+                  patches
+                </p>
+                <!--Backgorund Image-->
+                <picture class="cs-background">
+                  <!--Mobile Image-->
+                  <source
+                    media="(max-width: 600px)"
+                    srcset="/images/hyperpig.jpg"
+                  />
+                  <!--Tablet and above Image-->
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/hyperpig.jpg"
+                  />
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/hyperpig.jpg"
+                    alt="person"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece-->
+        <svg
+          class="cs-wave"
+          width="1920"
+          height="179"
+          viewBox="0 0 1920 179"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1920 179V91.3463C1835.33 91.3463 1715.47 76.615 1549.2 32.9521C1299.48 -32.3214 1132.77 12.1006 947.32 61.5167C810.762 97.9044 664.042 137 466.533 137C331.607 137 256.468 123.447 188.082 111.113C130.974 100.812 78.5746 91.3609 0 91.3609V179H1920Z"
+            fill="white"
+          />
+        </svg>
+      </section>
+
+      <!-- ============================================ -->
+      <!--                  Gallery                     -->
+      <!-- ============================================ -->
+
+      <section class="gallery">
+        <h1 class="title">Gallery</h1>
+        <div class="swiper mySwiper" id="gallery">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/images/gallery/imgDark1.jpg" alt="carousel image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/gallery/imgDark2.jpg" alt="carousel image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/gallery/imgDark3.jpg" alt="carousel image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/gallery/imgDark4.jpg" alt="carousel image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/gallery/imgDark5.jpg" alt="carousel image" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper -->
+      </section>
+
+      <!-- ============================================ -->
+      <!--                 Why Choose Us                -->
+      <!-- ============================================ -->
+
+      <section id="sidebyside-reverse">
+        <div class="container" id="whychooseus">
+          <div class="content">
+            <h1 class="title" style="font-family: Montserrat; font-weight: 600">
+              Why Choose Us?
+            </h1>
+            <p>
+              Located in Palo Alto, Dr. Priyanka Singla's clinic offers over 15
+              years of specialized dermatological expertise. We provide
+              personalized treatment plans and our clinic integrates advanced
+              technology and cosmetic procedures like Botox and laser treatments
+              for effective results, ensuring compassionate care for all.
+            </p>
+            <!-- <ul>
+              <li>
+                <img
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="/images/check.svg"
+                  alt="check mark"
+                  width="20"
+                  height="20"
+                />
+                <span>
+                  <strong>Expertise and Experience:</strong>
+                  Led by Dr. Priyanka Singla, a Stanford-trained dermatologist
+                  with over 15 years of experience.
+                </span>
+              </li>
+              <li>
+                <img
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="/images/check.svg"
+                  alt="check mark"
+                  width="20"
+                  height="20"
+                />
+                <span>
+                  <strong>Personalized Care:</strong>
+                  Customized treatment plans tailored to individual skin
+                  concerns and goals.
+                </span>
+              </li>
+              <li>
+                <img
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="/images/check.svg"
+                  alt="check mark"
+                  width="20"
+                  height="20"
+                />
+                <span>
+                  <strong>Advanced Technology:</strong>
+                  Utilization of state-of-the-art equipment and techniques,
+                  including laser treatments and cosmetic procedures.
+                </span>
+              </li>
+              <li>
+                <img
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="/images/check.svg"
+                  alt="check mark"
+                  width="20"
+                  height="20"
+                />
+                <span>
+                  <strong>Comprehensive Services:</strong>
+                  Offering a full spectrum of dermatological care, from medical
+                  treatments to cosmetic enhancements.
+                </span>
+              </li>
+              <li>
+                <img
+                  aria-hidden="true"
+                  loading="lazy"
+                  decoding="async"
+                  src="/images/check.svg"
+                  alt="check mark"
+                  width="20"
+                  height="20"
+                />
+                <span>
+                  <strong>Patient-Centered Approach:</strong>
+                  Focus on patient education, wellness, and achieving
+                  natural-looking results through integrated care.
+                </span>
+              </li>
+            </ul> -->
+
+            <ul id="list-1075" class="cs-ul">
+              <li class="cs-li">
+                  <img class="cs-icon" aria-hidden="true" src="/images/whyus1x.png" decoding="async" alt="icon" width="52" height="52" loading="lazy">
+                  <div class="cs-flex">
+                      <h3 class="cs-h3">Best In Dermatology and Cosmetology</h3>
+                      <p class="cs-li-text">
+                        Leading dermatologist in Rewari with 9+ years of experience
+                      </p>
+                  </div>
+              </li>
+              <li class="cs-li">
+                  <img class="cs-icon" aria-hidden="true" src="/images/whyus2x.png" decoding="async" alt="icon" width="52" height="52" loading="lazy">
+                  <div class="cs-flex">
+                      <h3 class="cs-h3">Effective Treatments</h3>
+                      <p class="cs-li-text">
+                        Evidence based and proven treatments & procedures
+                      </p>
+                  </div>
+              </li>
+              <li class="cs-li">
+                <img class="cs-icon" aria-hidden="true" src="/images/whyus3.png" decoding="async" alt="icon" width="52" height="52" loading="lazy">
+                  <div class="cs-flex">
+                      <h3 class="cs-h3">Trained Staff</h3>
+                      <p class="cs-li-text">
+                        Fully trained & friendly staff to attend to all your needs
+                      </p>
+                  </div>
+              </li>
+          </ul>
+                                          
+
+            <div id="reviews-1673">
+              <div class="cs-container">
+                <div class="cs-content">
+                  <!-- <span class="cs-topper">Testimonials</span>
+                                <h2 class="cs-title">Our Customer Reviews</h2> -->
+                </div>
+                <ul class="cs-card-group">
+                  <li class="cs-item">
+                    <div class="cs-flex-group">
+                      <picture class="cs-picture">
+                        <img
+                          class="cs-profile"
+                          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-headshot1.jpeg"
+                          decoding="async"
+                          alt="profile"
+                          width="50"
+                          height="50"
+                          aria-hidden="true"
+                          loading="lazy"
+                        />
+                      </picture>
+                      <span class="cs-name">
+                        Diya Singla
+                        <span class="cs-job">Regular Patient</span>
+                      </span>
+                    </div>
+                    <div class="wrapper">
+                      <img
+                        class="cs-item-stars"
+                        aria-hidden="true"
+                        loading="lazy"
+                        decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg"
+                        alt="stars"
+                        width="96"
+                        height="16"
+                      />
+                      <p class="cs-review">
+                        Best product within few weeks u can see the results
+                      </p>
+                    </div>
+                    <!--Quote Icon-->
+                    <img
+                      class="cs-quote"
+                      aria-hidden="true"
+                      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg"
+                      decoding="async"
+                      alt="quote icon"
+                      width="120"
+                      height="99"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <picture class="image-box">
+            <source
+              media="(max-width: 600px)"
+              srcset="/images/whychooseus.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/images/whychooseus.jpg"
+            />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/images/whychooseus.jpg"
+              alt="cabinets"
+              width="400"
+              height="662"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <!-- ============================================ -->
+      <!--                   Contact                    -->
+      <!-- ============================================ -->
+
+      <section id="sidebyside" class="sidebyside">
+        <div class="container" id="contact">
+          <div class="content">
+            <h1 class="contact-title">Contact Us</h1>
+            <div style="display: inline-flex; align-items: center">
+              <img
+                src="/images/location.svg"
+                alt=""
+                width="25"
+                height="25"
+                style="margin-right: 8px"
+              />
+              <h3 style="margin: 0">21 Rosewood St, Palo Alto, CA 94301</h3>
+            </div>
+            <br />
+            <br />
+            <div style="display: inline-flex; align-items: center">
+              <img
+                src="/images/call.svg"
+                alt=""
+                width="25"
+                height="25"
+                style="margin-right: 8px"
+              />
+              <h3 style="margin: 0">(555) 779-4407</h3>
+            </div>
+            <br />
+            <div style="display: inline-flex; align-items: center">
+              <img
+                src="/images/call.svg"
+                alt=""
+                width="25"
+                height="25"
+                style="margin-right: 8px"
+              />
+              <h3 style="margin: 0">(555) 779-2820</h3>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div style="display: inline-flex; align-items: center">
+              <img
+                src="/images/time.svg"
+                alt=""
+                width="25"
+                height="25"
+                style="margin-right: 8px"
+              />
+              <h3 style="margin: 0">Clinic Hours</h3>
+            </div>
+            <p>
+              Monday to Friday: 9:00 AM - 5:00 PM
+              <br />
+              Saturday: 10:00 AM - 2:00 PM
+              <br />
+              Sunday: Closed
+            </p>
+
+            <div>
+              <a class="button-solid" href="tel:555-779-4407" rel="noopener">
+                Call Us
+              </a>
+            </div>
+          </div>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10237.585034093197!2d76.60972043789774!3d28.192352306398316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d50733667f049%3A0x7084b768842f7002!2sSai%20Skin%20Clinic!5e0!3m2!1sen!2sin!4v1723364926443!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="contactmap"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!--                     FOOTER                   -->
+    <!-- ============================================ -->
+    <!-- 
+    <footer id="footer">
+      <div class="container">
+        <div class="left-section">
+          <a class="logo" href="/index.html">
+            <img
+              loading="lazy"
+              decoding="async"
+              src="/images/ASlogo-dark.png"
+              alt="logo"
+              width="296"
+              height="117"
+            />
+          </a>
+        </div>
+        <div class="right-section">
+          <div class="lists">
+            <ul>
+              <li><h2>Information</h2></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#whychooseus">Why Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+              <li><h2>Services</h2></li>
+              <li>Dermatological Care</li>
+              <li>Laser Services</li>
+              <li>Botox & Injectables</li>
+            </ul>
+            <ul>
+              <li><h2>Contact</h2></li>
+              <li><a href="#contact">Denver CO 80206</a></li>
+              <li><a href="tel:555-779-4407">T: (555) 779-4407</a></li>
+              <li><a href="mailto:email@email.com">Click to Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        <span class="copyright">Copyright &copy; 2024.</span>
+        <span>Designed by</span>
+        <a href="https://celesteconsulting.in" target="_blank" rel="noopener">
+          Celeste Consulting.
+        </a>
+      </div>
+    </footer> -->
+
+    <!-- ============================================ -->
+    <!--                     FOOTER 2                 -->
+    <!-- ============================================ -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="left-section">
+          <a class="logo footerName" href="/dist/index.html">
+            <p>Dr. Adam Smith</p>
+            <p
+              style="
+                font-weight: 400;
+                font-size: 0.7em;
+                opacity: 0.7;
+                margin-top: -0.5em;
+              "
+            >
+              MBBS, MD, FCP
+            </p>
+          </a>
+          <div class="credit">
+            <span class="copyright">Copyright &copy; 2024.</span>
+          </div>
+          <div class="credit">
+            <span>Designed by</span>
+            <a href="https://celesteconsulting.in" target="_blank" rel="noopener">
+              Celeste Consulting.
+            </a>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="lists">
+            <ul>
+              <li><h2>For consultation</h2></li>
+              <li>
+                <div id="footerconsult">
+                  <p>DERMAX HOSPITAL</p>
+                  <p>MON, TUES, WED, FRI 3-5 pm</p>
+                  <p>
+                    <strong>Address:</strong>
+                    36, 5th Avenue, 11th Main Rd, 4th Block, <br> East Lincoln, Illinois, Chicago
+                  </p>
+                  <p>
+                    <strong>Phone:</strong>
+                    +1 23238-8800
+                  </p>
+                  <p>
+                    <strong>WhatsApp:</strong>
+                    +1 23238-9900
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div id="footerconsult" style="margin-top: 2em;">
+                  <p>ABRAHAM HOSPITAL</p>
+                  <p>MON, TUES, WED, FRI 3-5 pm</p>
+                  <p>
+                    <strong>Address:</strong>
+                    36, 5th Avenue, 11th Main Rd, 4th Block, <br> East Lincoln, Illinois, Chicago
+                  </p>
+                  <p>
+                    <strong>Phone:</strong>
+                    +1 23238-8800
+                  </p>
+                  <p>
+                    <strong>WhatsApp:</strong>
+                    +1 23238-9900
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li><h2>Information</h2></li>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#whychooseus">Why Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+              <li><h2>Contact</h2></li>
+              <li><a href="#contact">Denver CO 80206</a></li>
+              <li><a href="tel:555-779-4407">T: (555) 779-4407</a></li>
+              <li><a href="mailto:email@email.com">Click to Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="credit">
+        <span class="copyright">Copyright &copy; 2024.</span>
+        <span>Designed by</span>
+        <a href="https://celesteconsulting.in" target="_blank" rel="noopener">
+          Celeste Consulting.
+        </a>
+      </div> -->
+    </footer>
+
+    <script defer src="/nav.js"></script>
+    <!-- <script defer src="/dark.js"></script> -->
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer>
+      document.addEventListener('scroll', (e) => {
+        const scroll = document.documentElement.scrollTop;
+        if (scroll >= 100) {
+          document.querySelector('body').classList.add('scroll');
+        } else {
+          document.querySelector('body').classList.remove('scroll');
+        }
+      });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    </script>
+  </body>
+</html>
