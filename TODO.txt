@@ -1,44 +1,26 @@
 make changes for mobile version ✅
 make header ✅
 change fonts ✅
-change logos and favicon
 copy footer from travis ✅
 add google reviews ✅
 add gallery ✅
+fix alt tags ✅
 logos inside cta
-change info in package.json
-fix alt tags
-fiil in description and keywords meta tags
-add analytics for button tracking
+before/after ✅
+faqs like https://www.dermacosm.com/ ✅
+whatsapp web ✅
+gsap
 
-Use Proper Formats: Use modern image formats like WebP where possible, as they provide better compression and quality compared to older formats like JPEG and PNG.
-Compress Images: Tools like TinyPNG or ImageOptim can reduce image file sizes without significant loss in quality.
-Use the srcset attribute for images to serve different image sizes based on the user's device screen size and resolution.
-Use a CDN to distribute your static assets (like CSS and images) 
-Use critical CSS
+use critical CSS
 defer non critical css
+fiil in description and keywords meta tags
+do seo; change info in package.json
 
-make different color themes
+After getting information/images:
+convert all images to webp and use srcset from whychooseus
+change whatsapp number
+
+After domain:
+change logos and favicon
+set up google analytics
 change canonical link in head after getting domain
-do seo
-
-
-
-NEED
-- your degrees
-- 3 main treatments that you offer or which are in high demand in market (eg: botox, hair transplant, etc.)
-- 5 most common treatments that you do at your clinic (you can repeat the above 3 as well)
-- all available contact numbers
-- optional: whatsapp number
-- optional: email
-- working hours & days
-- optional: few lines about yourself to put in the about section
-- optional: where did you complete your undergraduate & postgraduate from
-- optional: 2-3 hobbies
-- few images of your clinic & equipment
-- your clinic's address
-- good quality image of yours
-- optional: any logo of your clinic
-- optional: any tagline to display under your name or we can put something like "Skincare Specialist in Rewari" or we can use your degrees to display under your name
-
-make google form
