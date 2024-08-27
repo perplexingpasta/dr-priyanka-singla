@@ -4373,7 +4373,6 @@ html {
   object-fit: cover;
 }
 
-
 #navcallnowbtn {
   color: #000 !important;
   border-radius: 0.4em;
@@ -4416,6 +4415,12 @@ ul.hero2 li::before {
 }
 
 @media only screen and (min-width: 0px) {
+  #home-h {
+    font-family: Halyard-Display;
+    font-weight: 700;
+    margin-top: 0.5em;
+  }
+
   .swiper {
     /* margin-left: -5rem; */
     width: 85%;
@@ -4431,7 +4436,7 @@ ul.hero2 li::before {
     font-family: Montserrat;
     font-weight: 700;
     font-size: 2em;
-    display:inline-flexbox !important;
+    display: inline-flexbox !important;
     margin-bottom: 0 !important;
   }
 

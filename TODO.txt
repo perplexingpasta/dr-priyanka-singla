@@ -21,6 +21,12 @@ preload fonts ✅
 mobile view adjustments ✅
 separate out psds from website folder and remove unnecessary files ✅
 replace her own image ✅
+left aligned text in about us in phone ✅
+
+phone number visible on top in mobile view
+hero text too big in mobile view
+nav logo bigger in mobile view
+hamburger glitch 
 XML sitemap and a properly configured robots.txt file to guide search engines
 gsap
 
