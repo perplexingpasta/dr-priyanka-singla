@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Swap our for actual link-->
     <link rel="canonical" href="https://www.company.com" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="Dr. Priyanka Singla is the best dermatologist, skincare specialist in Rewari, Haryana. Consult today for your skin problems such as acne, hyperpigmentation, hair loss, allergies, warts to look your best self today! She is the best dermatologist in Rewari, Haryana."
+    />
+    <meta
+      name="keywords"
+      content="dermatologist in Rewari, skin doctor, acne treatment, hyperpigmentation, warts, allergies, dermatologist in haryana, best dermatologist in rewari, best skin doctor in rewari"
+    />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <link
@@ -21,10 +26,28 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Preload -->
-    <!-- <link rel="preload" as="image" href="/images/landing-m.webp">
-    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin> -->
+    <!-- Preload font declarations -->
+    <link
+      rel="preload"
+      href="../fonts/Halyard-Display-Medium.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="../fonts/Halyard-Text-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="../fonts/Montserrat-Variable.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="./output.css" />
 
@@ -55,7 +78,7 @@
           <img
             class="light"
             aria-hidden="true"
-            src="/images/ASlogo-dark.png"
+            src="/images/logo-dark2.png"
             decoding="async"
             alt="logo"
             width="221"
@@ -64,7 +87,7 @@
           <img
             class="dark"
             aria-hidden="true"
-            src="/images/ASlogo-light.png"
+            src="/images/logo-light2.png"
             decoding="async"
             loading="lazy"
             alt="logo"
@@ -80,10 +103,10 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Visit Us</a></li>
             <li>
-              <a href="tel:6362840780">+91 63628-40780</a>
+              <a href="tel:01274222811">01274-222811</a>
             </li>
             <li>
-              <a id="navcallnowbtn" href="tel:6362840780" rel="noopener">
+              <a id="navcallnowbtn" href="tel:01274222811" rel="noopener">
                 Call Now
               </a>
             </li>
@@ -125,7 +148,7 @@
                 <li>More than 50k satisfied patients</li>
               </ul>
             </div>
-            <a class="button-solid heroctabtn" href="#contact" rel="noopener">
+            <a class="button-solid heroctabtn" href="/#contact" rel="noopener">
               Book Your Appointment
             </a>
           </div>
@@ -184,6 +207,24 @@
             <img
               aria-hidden="true"
               decoding="async"
+              src="/images/hyperpigsvg.svg"
+              alt="Service 3 - Achieve a more even skin tone by reducing stubborn
+              hyperpigmentation."
+              width="48"
+              height="48"
+            />
+          </picture>
+          <h2>Hyperpigmentation</h2>
+          <p>
+            Achieve a more even skin tone by reducing stubborn
+            hyperpigmentation.
+          </p>
+        </div>
+        <!-- <div class="card">
+          <picture>
+            <img
+              aria-hidden="true"
+              decoding="async"
               src="/images/service3.svg"
               alt="Service 3 - Botox and Injectables for a youthful appearance"
               width="48"
@@ -195,7 +236,7 @@
             Personalized treatments to smooth your facial wrinkles for a
             youthful appearance.
           </p>
-        </div>
+        </div> -->
       </section>
 
       <!-- ============================================ -->
@@ -213,23 +254,25 @@
                 font-family: Montserrat;
               "
             >
-              MBBS, MD, FCP
+              MBBS, DDV
             </h2>
             <p>
               Dr. Priyanka Singla is a renowned dermatologist in Rewari,
-              Haryana, with over 9 years of experience. She earned her medical
-              degree from Stanford University School of Medicine and completed
-              her dermatology residency at UCSF.
+              Haryana, with over 10 years of experience. She earned her medical
+              degree from KMC Mangalore, MAHE and completed her dermatology
+              residency at Sion Hospital, Mumbai.
               <br />
               <br />
               Dr. Singla specializes in treating a wide range of skin
-              conditions, including acne, eczema, psoriasis, and skin cancer,
-              using a personalized approach to patient care.
+              conditions, including acne vulgaris for teenagers and adolescents,
+              eczema, psoriasis, allergies, warts & cones, hyperpigmentation,
+              laser treatments and many more using a personalized approach to
+              patient care.
               <br />
               <br />
-              Outside of her professional life, Dr. Singla enjoys hiking,
+              <!-- Outside of her professional life, Dr. Singla enjoys hiking,
               cycling, and painting.
-              <br />
+              <br /> -->
               Dr. Singla is also a dedicated advocate for healthy living, often
               educating her patients on skincare and overall wellness. And she
               is also one of the Best Dermatologist and Skincare Specialist in
@@ -241,13 +284,13 @@
             </p>
           </div>
           <picture class="image-box" style="margin-left: 5em; margin-right: 0">
-            <source media="(max-width: 600px)" srcset="/images/doctor.jpg" />
-            <source media="(min-width: 601px)" srcset="/images/doctor.jpg" />
+            <!-- <source media="(max-width: 600px)" srcset="/images/doctor.jpg" />
+            <source media="(min-width: 601px)" srcset="/images/doctor.jpg" /> -->
             <img
               aria-hidden="true"
               loading="lazy"
               decoding="async"
-              src="/images/doctor.jpg"
+              src="/images/doctorpriyanka2.png"
               alt="Dr. Priyanka Singla"
               width="400"
               height="662"
@@ -286,20 +329,18 @@
               <a href="" class="cs-link">
                 <h3 class="cs-h3">Acne Treatment</h3>
                 <p class="cs-item-p">
-                  it's actually really easy to treat it lol
+                  Clear up your complexion with targeted treatments designed to
+                  combat acne and restore your skin's natural glow.
                 </p>
-                <!--Backgorund Image-->
                 <picture class="cs-background">
-                  <!--Mobile Image-->
-                  <source
+                  <!-- <source
                     media="(max-width: 600px)"
                     srcset="/images/acne.jpg"
                   />
-                  <!--Tablet and above Image-->
                   <source
                     media="(min-width: 601px)"
                     srcset="/images/acne.jpg"
-                  />
+                  /> -->
                   <img
                     loading="lazy"
                     decoding="async"
@@ -313,27 +354,25 @@
             </li>
             <li class="cs-item">
               <a href="" class="cs-link">
-                <h3 class="cs-h3">Hair Loss Treatment</h3>
+                <h3 class="cs-h3">Allergies</h3>
                 <p class="cs-item-p">
-                  be it male baldness or hair thinning, we can fix you
+                  Find relief from skin allergies with personalized care that
+                  soothes and protects sensitive skin.
                 </p>
-                <!--Backgorund Image-->
                 <picture class="cs-background">
-                  <!--Mobile Image-->
-                  <source
+                  <!-- <source
                     media="(max-width: 600px)"
                     srcset="/images/hairloss.jpg"
                   />
-                  <!--Tablet and above Image-->
                   <source
                     media="(min-width: 601px)"
                     srcset="/images/hairloss.jpg"
-                  />
+                  /> -->
                   <img
                     loading="lazy"
                     decoding="async"
-                    src="/images/hairloss.jpg"
-                    alt="Hair Loss Treatment"
+                    src="/images/allergy.jpg"
+                    alt="Allergies Treatment"
                     width="1280"
                     height="568"
                   />
@@ -342,82 +381,79 @@
             </li>
             <li class="cs-item">
               <a href="" class="cs-link">
-                <h3 class="cs-h3">Anti-aging</h3>
-                <p class="cs-item-p">we'll make you look younger</p>
-                <!--Backgorund Image-->
-                <picture class="cs-background">
-                  <!--Mobile Image-->
-                  <source
-                    media="(max-width: 600px)"
-                    srcset="/images/antiaging.jpg"
-                  />
-                  <!--Tablet and above Image-->
-                  <source
-                    media="(min-width: 601px)"
-                    srcset="/images/antiaging.jpg"
-                  />
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    src="/images/antiaging.jpg"
-                    alt="Anti-aging Treatment"
-                    width="1280"
-                    height="568"
-                  />
-                </picture>
-              </a>
-            </li>
-            <li class="cs-item">
-              <a href="" class="cs-link">
-                <h3 class="cs-h3">Psoriasis and Eczema</h3>
-                <p class="cs-item-p">idk what this is but we can help</p>
-                <!--Backgorund Image-->
-                <picture class="cs-background">
-                  <!--Mobile Image-->
-                  <source
-                    media="(max-width: 600px)"
-                    srcset="/images/eczema.jpg"
-                  />
-                  <!--Tablet and above Image-->
-                  <source
-                    media="(min-width: 601px)"
-                    srcset="/images/eczema.jpg"
-                  />
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    src="/images/eczema.jpg"
-                    alt="Psoriasis and Eczema Treatment"
-                    width="1280"
-                    height="568"
-                  />
-                </picture>
-              </a>
-            </li>
-            <li class="cs-item">
-              <a href="" class="cs-link">
-                <h3 class="cs-h3">Pigmentation</h3>
+                <h3 class="cs-h3">Hyperpigmentation</h3>
                 <p class="cs-item-p">
-                  with laser machines we can treat your hyperpigmented skin
-                  patches
+                  Achieve a more even skin tone with advanced solutions for
+                  reducing stubborn hyperpigmentation.
                 </p>
-                <!--Backgorund Image-->
                 <picture class="cs-background">
-                  <!--Mobile Image-->
-                  <source
+                  <!-- <source
                     media="(max-width: 600px)"
                     srcset="/images/hyperpig.jpg"
                   />
-                  <!--Tablet and above Image-->
                   <source
                     media="(min-width: 601px)"
                     srcset="/images/hyperpig.jpg"
-                  />
+                  /> -->
                   <img
                     loading="lazy"
                     decoding="async"
-                    src="/images/hyperpig.jpg"
-                    alt="Pigmentation Treatment"
+                    src="/images/hyperpig3.png"
+                    alt="Hyperpigmentation Treatment"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Warts and Corns</h3>
+                <p class="cs-item-p">
+                  Eliminate warts and corns effectively with our precise and
+                  gentle removal treatments.
+                </p>
+                <picture class="cs-background">
+                  <!-- <source
+                    media="(max-width: 600px)"
+                    srcset="/images/antiaging.jpg"
+                  />
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/antiaging.jpg"
+                  /> -->
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/warts.jpg"
+                    alt="Warts and Corns Treatment"
+                    width="1280"
+                    height="568"
+                  />
+                </picture>
+              </a>
+            </li>
+            <li class="cs-item">
+              <a href="" class="cs-link">
+                <h3 class="cs-h3">Laser Procedures</h3>
+                <p class="cs-item-p">
+                  Revitalize your appearance with cutting-edge laser treatments
+                  tailored to your unique aesthetic needs.
+                </p>
+                <picture class="cs-background">
+                  <!-- <source
+                    media="(max-width: 600px)"
+                    srcset="/images/eczema.jpg"
+                  />
+                  <source
+                    media="(min-width: 601px)"
+                    srcset="/images/eczema.jpg"
+                  /> -->
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    src="/images/laser2.png"
+                    alt="Laser Treatment"
                     width="1280"
                     height="568"
                   />
@@ -453,20 +489,53 @@
         <div class="swiper mySwiper" id="gallery">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="/images/gallery/imgDark1.jpg" alt="carousel image" />
+              <img
+                src="/images/gallery/img2_50.webp"
+                alt="equipment and pictures of doctor's clinic"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="/images/gallery/imgDark2.jpg" alt="carousel image" />
+              <img
+                src="/images/gallery/img3_50.webp"
+                alt="equipment and pictures of doctor's clinic"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="/images/gallery/imgDark3.jpg" alt="carousel image" />
+              <img
+                src="/images/gallery/img1_50.webp"
+                alt="equipment and pictures of doctor's clinic"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="/images/gallery/imgDark4.jpg" alt="carousel image" />
+              <img
+                src="/images/gallery/img4.webp"
+                alt="equipment and pictures of doctor's clinic"
+              />
+            </div>
+            <!-- <div class="swiper-slide">
+              <img
+                src="/images/gallery/imgDark2.jpg"
+                alt="equipment and pictures of doctor's clinic"
+              />
             </div>
             <div class="swiper-slide">
-              <img src="/images/gallery/imgDark5.jpg" alt="carousel image" />
+              <img
+                src="/images/gallery/imgDark3.jpg"
+                alt="equipment and pictures of doctor's clinic"
+              />
             </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/gallery/imgDark4.jpg"
+                alt="equipment and pictures of doctor's clinic"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="/images/gallery/imgDark5.jpg"
+                alt="equipment and pictures of doctor's clinic"
+              />
+            </div> -->
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -486,11 +555,18 @@
               Why Choose Us?
             </h1>
             <p>
-              Located in Palo Alto, Dr. Priyanka Singla's clinic offers over 15
-              years of specialized dermatological expertise. We provide
+              Located in Rewari, Dr. Priyanka Singla's Sai Skin Clinic offers
+              over 10 years of specialized dermatological expertise. We provide
               personalized treatment plans and our clinic integrates advanced
-              technology and cosmetic procedures like Botox and laser treatments
-              for effective results, ensuring compassionate care for all.
+              technology and cosmetic procedures like laser treatments for
+              effective results, ensuring compassionate care for all.
+              <br />
+              <br />
+              Some of our services include treatments for acne vulgaris,
+              allergies, hyperpigmentation, warts and corns, laser procedures
+              for aesthetic concerns, etc.
+              <br />
+              <br />
             </p>
 
             <ul id="list-1075" class="cs-ul">
@@ -508,7 +584,7 @@
                 <div class="cs-flex">
                   <h3 class="cs-h3">Best In Dermatology and Cosmetology</h3>
                   <p class="cs-li-text">
-                    Leading dermatologist in Rewari with 9+ years of experience
+                    Leading dermatologist in Rewari with 10+ years of experience
                   </p>
                 </div>
               </li>
@@ -653,12 +729,11 @@
       <!--                   Before/After               -->
       <!-- ============================================ -->
 
-      <section id="gallery-1897">
+      <!-- <section id="gallery-1897">
         <div class="cs-container">
           <div class="cs-content">
             <h2 class="beforeafter-title">Our Results</h2>
           </div>
-          <!--Gallery-->
           <div class="cs-gallery">
             <div class="cs-item">
               <p class="cs-item-text">
@@ -902,23 +977,23 @@
           decoding="async"
           aria-hidden="true"
         />
-      </section>
+      </section> -->
 
       <!-- ============================================ -->
       <!--                     FAQ                      -->
       <!-- ============================================ -->
 
-      <section id="faq-709">
+      <!-- <section id="faq-709">
         <div class="cs-container">
           <picture class="cs-picture">
-            <!--Mobile Image-->
+            
             <source
               media="(max-width: 600px)"
               srcset="
                 https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FLandscapes%2Frocks-m.jpg
               "
             />
-            <!--Tablet and above Image-->
+            
             <source
               media="(min-width: 601px)"
               srcset="
@@ -938,7 +1013,7 @@
           <div class="cs-content">
             <h2 class="faq-title">Frequently Asked Questions</h2>
             <ul class="cs-faq-group">
-              <!-- Active class added as default -->
+              
               <li class="cs-faq-item active">
                 <button class="cs-button">
                   <span class="cs-button-text">
@@ -993,7 +1068,7 @@
           height="487"
           aria-hidden="true"
         />
-      </section>
+      </section> -->
 
       <!-- ============================================ -->
       <!--                   Contact                    -->
@@ -1002,22 +1077,28 @@
       <section id="sidebyside" class="sidebyside">
         <div class="container" id="contact">
           <div class="content">
-            <h1 class="contact-title">Contact Us</h1>
-            <div style="display: inline-flex; align-items: center">
+            <h1 class="contact-title">Visit Us</h1>
+            <div
+              style="display: inline-flex; align-items: start; margin-top: 2em"
+            >
               <img
                 src="/images/location.svg"
                 alt=""
                 width="25"
                 height="25"
-                style="margin-right: 8px"
+                style="margin-right: 8px; margin-top: 0.4em"
               />
               <h3 style="margin: 0; font-size: 1.3em">
-                21 Rosewood St, Palo Alto, CA 94301
+                Sai Skin Clinic
+                <br />
+                Shop no. 9, Model Town, Old Court Road,
+                <br />
+                Near HDFC Bank, Rewari, Haryana, 123401
               </h3>
             </div>
             <br />
             <br />
-            <div style="display: inline-flex; align-items: center">
+            <!-- <div style="display: inline-flex; align-items: center">
               <img
                 src="/images/call.svg"
                 alt=""
@@ -1027,7 +1108,7 @@
               />
               <h3 style="margin: 0; font-size: 1.3em">(555) 779-4407</h3>
             </div>
-            <br />
+            <br /> -->
             <div style="display: inline-flex; align-items: center">
               <img
                 src="/images/call.svg"
@@ -1036,9 +1117,10 @@
                 height="25"
                 style="margin-right: 8px"
               />
-              <h3 style="margin: 0; font-size: 1.3em">(555) 779-2820</h3>
+              <h3 style="margin: 0; font-size: 1.3em">
+                <a href="tel:01274222811">01274-222811</a>
+              </h3>
             </div>
-            <br />
             <br />
             <br />
             <div style="display: inline-flex; align-items: center">
@@ -1049,18 +1131,15 @@
                 height="25"
                 style="margin-right: 8px"
               />
-              <h3 style="margin: 0; font-size: 1.3em">Clinic Hours</h3>
+              <h3 style="margin: 0; font-size: 1.3em">
+                Monday to Sunday: 11am - 3pm
+              </h3>
+              <!-- <h3 style="margin: 0; font-size: 1.3em">Clinic Hours</h3> -->
             </div>
-            <p style="font-size: 1.2em">
-              Monday to Friday: 9:00 AM - 5:00 PM
-              <br />
-              Saturday: 10:00 AM - 2:00 PM
-              <br />
-              Sunday: Closed
-            </p>
+            <!-- <p style="font-size: 1.2em">Monday to Sunday: 11am - 3pm</p> -->
 
             <div>
-              <a class="button-solid" href="tel:555-779-4407" rel="noopener">
+              <a class="button-solid" href="tel:01274222811" rel="noopener">
                 Call Us
               </a>
             </div>
@@ -1139,7 +1218,7 @@
       <div class="container">
         <div class="left-section">
           <a class="logo footerName" href="/">
-            <p>Dr. Adam Smith</p>
+            <p>Dr. Priyanka Singla</p>
             <p
               style="
                 font-weight: 400;
@@ -1148,10 +1227,10 @@
                 margin-top: -0.5em;
               "
             >
-              MBBS, MD, FCP
+              MBBS, DDV
             </p>
           </a>
-          <div class="credit">
+          <!-- <div class="credit">
             <span class="copyright">Copyright &copy; 2024.</span>
           </div>
           <div class="credit">
@@ -1163,14 +1242,14 @@
             >
               Celeste Consulting.
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="right-section">
           <div class="lists">
             <ul>
               <li><h2>For consultation</h2></li>
               <li>
-                <div id="footerconsult">
+                <!-- <div id="footerconsult">
                   <p>DERMAX HOSPITAL</p>
                   <p>MON, TUES, WED, FRI 3-5 pm</p>
                   <p>
@@ -1207,48 +1286,71 @@
                     <strong>WhatsApp:</strong>
                     +1 23238-9900
                   </p>
+                </div> -->
+                <div id="footerconsult" style="margin-top: 2em">
+                  <p>Sai Skin Clinic</p>
+                  <p>MON - SUN 11am - 3pm</p>
+                  <p>
+                    <strong>Address:</strong>
+                    Shop no. 9, Model Town,
+                    <br />
+                    Old Court Road, Near HDFC Bank, Rewari
+                  </p>
+                  <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:01274222811">01274-222811</a>
+                  </p>
                 </div>
               </li>
             </ul>
-            <ul>
+            <ul class="info-footer">
               <li><h2>Information</h2></li>
-              <li><a href="/index.html">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#about">About Us</a></li>
               <li><a href="#whychooseus">Why Us</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-            <ul>
+            <ul class="contact-footer">
               <li><h2>Contact</h2></li>
-              <li><a href="#contact">Denver CO 80206</a></li>
-              <li><a href="tel:555-779-4407">T: (555) 779-4407</a></li>
-              <li><a href="mailto:email@email.com">Click to Email</a></li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/dS3ySWHb6ZyEXJkV7"
+                  target="_blank"
+                >
+                  Sai Skin Clinic, Rewari
+                </a>
+              </li>
+              <li><a href="tel:01274222811">Tel: 01274-222811</a></li>
+              <!-- <li><a href="mailto:email@email.com">Click to Email</a></li> -->
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- <div class="credit">
-        <span class="copyright">Copyright &copy; 2024.</span>
-        <span>Designed by</span>
-        <a href="https://celesteconsulting.in" target="_blank" rel="noopener">
-          Celeste Consulting.
-        </a>
-      </div> -->
+      <div class="credit creditcentre">
+        <span class="copyright">Copyright &copy; 2024.&nbsp;</span>
+        <div>
+          <span>Designed by</span>
+          <a href="https://celesteconsulting.in" target="_blank" rel="noopener">
+            céleste consulting.
+          </a>
+        </div>
+      </div>
     </footer>
 
     <!-- ============================================ -->
     <!--                     Whatsapp                 -->
     <!-- ============================================ -->
 
-    <div style="position: fixed; bottom: 40px; right: 30px; z-index: 100">
+    <!-- <div style="position: fixed; bottom: 40px; right: 30px; z-index: 100">
       <a
         href="https://wa.me/919012366688?text=Hi%21%20Is%20the%20clinic%20open%20today%3F"
         target="_blank"
       >
         <img src="/images/whatsapp.png" width="55px" alt="" />
       </a>
-    </div>
+    </div> -->
 
     <script defer src="/nav.js"></script>
     <!-- <script defer src="/dark.js"></script> -->

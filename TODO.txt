@@ -2,19 +2,32 @@ make changes for mobile version ✅
 make header ✅
 change fonts ✅
 copy footer from travis ✅
-add google reviews ✅
+add reviews ✅
 add gallery ✅
 fix alt tags ✅
 logos inside cta
 before/after ✅
 faqs like https://www.dermacosm.com/ ✅
 whatsapp web ✅
+
+clinic name in contact us ✅
+change favicons ✅
+change service images ✅
+nav title ✅
+change celeste link color in footer ✅
+fill in description and keywords meta tags ✅
+do seo; change info in package.json ✅
+preload fonts ✅
+mobile view adjustments ✅
+separate out psds from website folder and remove unnecessary files ✅
+replace her own image ✅
+XML sitemap and a properly configured robots.txt file to guide search engines
 gsap
 
+common favicon for all websites we design
+google reviews carousel
 use critical CSS
 defer non critical css
-fiil in description and keywords meta tags
-do seo; change info in package.json
 
 After getting information/images:
 convert all images to webp and use srcset from whychooseus
@@ -24,3 +37,9 @@ After domain:
 change logos and favicon
 set up google analytics
 change canonical link in head after getting domain
+
+To talk:
+present website, any changes? how do you like it?
+before/after images
+any testimonials you got yet?
+domain?

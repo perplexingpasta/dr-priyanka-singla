@@ -29,7 +29,7 @@ html,
 *::selection {
   /* background: #f5f5f5;
   color: #000; */
-  background: #818cf8;
+  background: #fca5a5;
   color: #fff;
 }
 
@@ -59,18 +59,10 @@ h6 {
   font-weight: inherit;
 }
 
-/*
-Reset links to optimize for opt-in styling instead of opt-out.
-*/
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
-
-/*
-Add the correct font weight in Edge and Safari.
-*/
 
 b,
 strong {
@@ -121,19 +113,10 @@ textarea {
   padding: 0;
 }
 
-/*
-Remove the inheritance of text transform in Edge and Firefox.
-*/
-
 button,
 select {
   text-transform: none;
 }
-
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
-*/
 
 button,
 input:where([type='button']),
@@ -161,45 +144,22 @@ progress {
   height: auto;
 }
 
-/*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
-*/
-
 [type='search'] {
-  /* -webkit-appearance: textfield; */
-  /* 1 */
   outline-offset: -2px;
-  /* 2 */
 }
 
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
-*/
-
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
-  /* 1 */
   font: inherit;
-  /* 2 */
 }
-
-/*
-Add the correct display in Chrome and Safari.
-*/
 
 summary {
   display: list-item;
 }
-
-/*
-Removes the default spacing and border for appropriate elements.
-*/
 
 blockquote,
 dl,
@@ -234,65 +194,34 @@ menu {
   padding: 0;
 }
 
-/*
-Reset default styling for dialogs.
-*/
-
 dialog {
   padding: 0;
 }
-
-/*
-Prevent resizing textareas horizontally by default.
-*/
 
 textarea {
   resize: vertical;
 }
 
-/*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
-*/
-
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  /* 1 */
   color: #9ca3af;
-  /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
-  /* 1 */
   color: #9ca3af;
-  /* 2 */
 }
-
-/*
-Set the default cursor for buttons.
-*/
 
 button,
 [role='button'] {
   cursor: pointer;
 }
 
-/*
-Make sure disabled buttons don't get the pointer cursor.
-*/
-
 :disabled {
   cursor: default;
 }
-
-/*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
-*/
 
 img,
 svg,
@@ -305,17 +234,11 @@ object {
   display: block;
 }
 
-/*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
-*/
-
 img,
 video {
   max-width: 100%;
   height: auto;
 }
-
-/* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
   display: none;
@@ -1317,19 +1240,6 @@ html {
 
   @font-face {
     font-family: 'Halyard-Display';
-    font-weight: 300;
-    src: url('../fonts/Halyard-Display-Light.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Halyard-Display';
-    font-weight: 400;
-    src: url('../fonts/Halyard-Display-Regular.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Halyard-Display';
-    font-weight: 500;
     src: url('../fonts/Halyard-Display-Medium.ttf') format('truetype');
   }
 
@@ -1338,24 +1248,6 @@ html {
     font-weight: 400;
     src: url('../fonts/Halyard-Text-Regular.ttf') format('truetype');
   }
-
-  /* @font-face {
-    font-family: 'Lato';
-    font-weight: 400;
-    src: url('../fonts/Lato-Regular.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Lato';
-    font-weight: 700;
-    src: url('../fonts/Lato-Bold.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Lato';
-    font-weight: 900;
-    src: url('../fonts/Lato-Black.ttf') format('truetype');
-  } */
 
   @font-face {
     font-family: 'Montserrat';
@@ -2076,7 +1968,7 @@ html {
     opacity: 0.9;
     text-align: center;
     width: 100%;
-    width: 21.92857143em;
+    /* width: 21.92857143em; */
     margin: auto;
   }
 
@@ -2183,7 +2075,7 @@ html {
   }
 
   #footer .credit a {
-    color: var(--primary);
+    color: #cbacf9;
     text-decoration: none;
     font-size: 1em;
   }
@@ -2195,6 +2087,14 @@ html {
   #footer .credit .copyright {
     display: block;
     font-size: 1em;
+  }
+
+  #footer .credit.creditcentre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
   }
 }
 
@@ -2283,6 +2183,13 @@ html {
 
   #footer .credit .copyright {
     display: inline-block;
+  }
+  #footer .credit.creditcentre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
   }
 }
 
@@ -4466,21 +4373,6 @@ html {
   object-fit: cover;
 }
 
-@media only screen and (min-width: 768px) {
-  .swiper {
-    width: 90%;
-    height: 50vh;
-    margin-top: 5rem;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .swiper {
-    width: 60%;
-    height: 70vh;
-    margin-top: 6rem;
-  }
-}
 
 #navcallnowbtn {
   color: #000 !important;
@@ -4496,12 +4388,6 @@ html {
   position: relative;
   z-index: 1;
   background-color: var(--primary);
-}
-
-.footerName {
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 2em;
 }
 
 ul.hero2 li {
@@ -4530,6 +4416,33 @@ ul.hero2 li::before {
 }
 
 @media only screen and (min-width: 0px) {
+  .swiper {
+    /* margin-left: -5rem; */
+    width: 85%;
+    height: 55vh;
+    margin-top: 4rem;
+  }
+
+  #contact {
+    margin-bottom: 2em;
+  }
+
+  .footerName {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+    display:inline-flexbox !important;
+    margin-bottom: 0 !important;
+  }
+
+  .info-footer {
+    margin-top: 3em !important;
+  }
+
+  .contact-footer {
+    margin-top: 8em !important;
+  }
+
   #contactmap {
     width: 360px;
     height: 300px;
@@ -4598,9 +4511,34 @@ ul.hero2 li::before {
 }
 
 @media only screen and (min-width: 768px) {
+  .swiper {
+    width: 60%;
+    height: 70vh;
+    margin-top: 4rem;
+  }
+
+  .footerName {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2em;
+    display: inline !important;
+  }
+
+  .info-footer {
+    margin-top: 0 !important;
+  }
+
+  .contact-footer {
+    margin-top: 0 !important;
+  }
+
   #contactmap {
     width: 700px;
     height: 500px;
+  }
+
+  #contact {
+    margin-bottom: 6em;
   }
 
   .about-title {

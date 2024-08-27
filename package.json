@@ -1,8 +1,18 @@
 {
   "name": "dr-priyanka-singla-best-dermatologist-skincare-specialist-in-rewari",
   "version": "1.0.0",
-  "description": "This is Dr. Priyanka Singla's official website. She is a renowned and famous dermatologist and skincare specialist in Rewari, Haryana.",
-  "keywords": [],
+  "description": "Dr. Priyanka Singla is the best dermatologist, skincare specialist in Rewari, Haryana. Consult today for your skin problems such as acne, hyperpigmentation, hair loss, allergies, warts to look your best self today! She is the best dermatologist in Rewari, Haryana.",
+  "keywords": [
+    "dermatologist in Rewari",
+    "skin doctor",
+    "acne treatment",
+    "hyperpigmentation",
+    "warts",
+    "allergies",
+    "dermatologist in haryana",
+    "best dermatologist in rewari",
+    "best skin doctor in rewari"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
