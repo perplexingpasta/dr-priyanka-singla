@@ -1201,6 +1201,7 @@ html {
   :root {
     /* Bg-red-300 */
     --primary: #fca5a5;
+    --secondary: #fca5a5;
     /* Golden */
     /* --primary: #ffba19; */
     --primaryShade: #ffd675;
@@ -1414,9 +1415,22 @@ html {
   }
 
   #navigation .logo {
-    display: inline-block;
+    /* display: inline-block; */
     height: 1.875em;
     width: auto;
+    display: none !important;
+  }
+
+  #navigation .mobile-nav-title {
+    font-family: Montserrat, 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+
+  #navigation .mobile-nav-deg {
+    font-family: Montserrat, 'Roboto', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
   }
 
   #navigation .logo img {
@@ -1681,9 +1695,18 @@ html {
   }
 
   #navigation .logo {
+    display: inline-block;
     margin-right: auto;
     height: 3.75em;
     width: auto;
+  }
+
+  #navigation .mobile-nav-title {
+    display: none;
+  }
+
+  #navigation .mobile-nav-deg {
+    display: none;
   }
 
   #navigation .logo img {
@@ -2274,7 +2297,8 @@ html {
     line-height: 1.203125;
     margin: auto;
     width: 100%;
-    max-width: 14.125em;
+    /* max-width: 14.125em; */
+    max-width: 10.125em;
     margin-bottom: 1.4375em;
     position: relative;
   }
@@ -2337,6 +2361,19 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+
+  #hero h1 {
+    font-weight: bold;
+    font-size: min(12vw, 4em);
+    color: #fff;
+    text-align: center;
+    line-height: 1.203125;
+    margin: auto;
+    width: 100%;
+    max-width: 14.125em;
+    margin-bottom: 1.4375em;
+    position: relative;
   }
 
   #hero picture {
@@ -2585,7 +2622,8 @@ html {
 
 @media only screen and (min-width: 666px) {
   #sidebyside {
-    padding: 6.25em 0;
+    /* padding: 6.25em 0; */
+    margin-top: -4em;
   }
 }
 
@@ -2594,6 +2632,7 @@ html {
 @media only screen and (min-width: 1300px) {
   #sidebyside {
     padding: 5em 0;
+    margin-top: 0;
   }
 
   #sidebyside .container {
@@ -3865,7 +3904,8 @@ html {
   #logos-572 {
     /* 60px - 130px */
     padding: clamp(3.75rem, 8vw, 8.125rem) 1rem;
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
+    display: none;
   }
   #logos-572 .cs-container {
     width: 100%;
@@ -3888,14 +3928,29 @@ html {
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
+  #logos-572 {
+    margin-top: -6em;
+    margin-bottom: -2em;
+    display: block;
+  }
   #logos-572 .cs-container {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   #logos-572 .cs-logo {
     width: 20%;
     /* the max width becomes whatever the actual width of the image is */
     max-width: max-content;
     height: auto;
+    display: block;
+    opacity: 30%;
+  }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #logos-572 {
+    margin-top: -6em;
+    margin-bottom: -6em;
     display: block;
   }
 }
@@ -4529,14 +4584,6 @@ ul.hero2 li::before {
     display: inline !important;
   }
 
-  .info-footer {
-    margin-top: 0 !important;
-  }
-
-  .contact-footer {
-    margin-top: 0 !important;
-  }
-
   #contactmap {
     width: 700px;
     height: 500px;
@@ -4576,10 +4623,6 @@ ul.hero2 li::before {
     padding-top: 3rem;
   }
 
-  .gallery {
-    margin-top: -8em;
-  }
-
   .gallery h1 {
     font-size: 3em;
     margin-bottom: -4rem;
@@ -4609,5 +4652,19 @@ ul.hero2 li::before {
 
   .heroctabtn {
     margin-bottom: 10em !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .gallery {
+    margin-top: -8em;
+  }
+
+  .info-footer {
+    margin-top: 0 !important;
+  }
+
+  .contact-footer {
+    margin-top: 0 !important;
   }
 }
