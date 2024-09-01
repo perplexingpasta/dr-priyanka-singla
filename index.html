@@ -54,6 +54,7 @@
     <title>
       Dr. Priyanka Singla | Best Dermatologist & Skincare Specialist in Rewari
     </title>
+    <script defer src="/script.js"></script>
   </head>
   <body>
     <!--Screen reader skip main nav-->
@@ -72,7 +73,7 @@
                 the #navbar-menu so that menu appears behind the #navigation
             -->
       </div>
-      <div class="container" >
+      <div class="container">
         <div>
           <h1 class="mobile-nav-title">Dr. Priyanka Singla</h1>
           <p class="mobile-nav-deg">MBBS, DDV</p>
@@ -133,7 +134,10 @@
         <div class="hero-content">
           <div class="heroText">
             <h1 id="home-h">Your Journey to Perfect Skin Starts Here</h1>
-            <div class="lowerdivhero">
+            <div
+              class="lowerdivhero hidden-left"
+              style="transition-delay: 500ms"
+            >
               <p>
                 Visit Dr. Priyanka Singla today to start your healthy skin
                 journey!
@@ -143,9 +147,15 @@
                 <li>More than 50k satisfied patients</li>
               </ul>
             </div>
-            <a class="button-solid heroctabtn" href="/#contact" rel="noopener">
-              Book Your Appointment
-            </a>
+            <div class="hidden-fade" style="transition-delay: 1500ms">
+              <a
+                class="button-solid heroctabtn"
+                href="/#contact"
+                rel="noopener"
+              >
+                Book Your Appointment
+              </a>
+            </div>
           </div>
         </div>
         <picture>
@@ -166,7 +176,7 @@
       <!-- ============================================ -->
 
       <section class="services">
-        <div class="card">
+        <div class="card hidden-fade">
           <picture>
             <img
               aria-hidden="true"
@@ -183,7 +193,7 @@
             dermatological care
           </p>
         </div>
-        <div class="card">
+        <div class="card hidden-fade">
           <picture>
             <img
               aria-hidden="true"
@@ -197,7 +207,7 @@
           <h2>Laser Services</h2>
           <p>With our laser technology you get precise and lasting results.</p>
         </div>
-        <div class="card">
+        <div class="card hidden-fade">
           <picture>
             <img
               aria-hidden="true"
@@ -240,7 +250,7 @@
 
       <section id="sidebyside" class="sidebyside">
         <div class="container" id="about">
-          <div class="content">
+          <div class="content hidden-right">
             <h1 class="about-title">Dr. Priyanka Singla</h1>
             <h2
               style="
@@ -278,7 +288,10 @@
                     </a> -->
             </p>
           </div>
-          <picture class="image-box" style="margin-left: 5em; margin-right: 0">
+          <picture
+            class="image-box hidden-left"
+            style="margin-left: 5em; margin-right: 0"
+          >
             <!-- <source media="(max-width: 600px)" srcset="/images/doctor.jpg" />
             <source media="(min-width: 601px)" srcset="/images/doctor.jpg" /> -->
             <img
@@ -301,7 +314,7 @@
       <section id="logos-572">
         <div class="cs-container">
           <img
-            class="cs-logo"
+            class="cs-logo hidden-fade"
             src="/images/gulzarlogo-black.png"
             alt="logo"
             width="230"
@@ -310,7 +323,7 @@
             decoding="async"
           />
           <img
-            class="cs-logo"
+            class="cs-logo hidden-fade"
             src="/images/dermaindialogo-black.png"
             alt="logo"
             width="230"
@@ -352,7 +365,7 @@
             </p>
           </div>
           <ul class="cs-card-group">
-            <li class="cs-item">
+            <li class="cs-item service-card hidden-left">
               <a href="#contact" class="cs-link">
                 <h3 class="cs-h3">Acne Treatment</h3>
                 <p class="cs-item-p">
@@ -379,7 +392,7 @@
                 </picture>
               </a>
             </li>
-            <li class="cs-item">
+            <li class="cs-item service-card hidden-left">
               <a href="#contact" class="cs-link">
                 <h3 class="cs-h3">Allergies</h3>
                 <p class="cs-item-p">
@@ -406,7 +419,7 @@
                 </picture>
               </a>
             </li>
-            <li class="cs-item">
+            <li class="cs-item service-card hidden-left">
               <a href="#contact" class="cs-link">
                 <h3 class="cs-h3">Hyperpigmentation</h3>
                 <p class="cs-item-p">
@@ -433,7 +446,7 @@
                 </picture>
               </a>
             </li>
-            <li class="cs-item">
+            <li class="cs-item service-card hidden-left">
               <a href="#contact" class="cs-link">
                 <h3 class="cs-h3">Warts and Corns</h3>
                 <p class="cs-item-p">
@@ -460,7 +473,7 @@
                 </picture>
               </a>
             </li>
-            <li class="cs-item">
+            <li class="cs-item service-card hidden-left">
               <a href="#contact" class="cs-link">
                 <h3 class="cs-h3">Laser Procedures</h3>
                 <p class="cs-item-p">
@@ -511,7 +524,7 @@
       <!--                  Gallery                     -->
       <!-- ============================================ -->
 
-      <section class="gallery">
+      <section class="gallery hidden-fade">
         <!-- <h1 class="title">Gallery</h1> -->
         <div class="swiper mySwiper" id="gallery">
           <div class="swiper-wrapper">
@@ -577,7 +590,7 @@
 
       <section id="sidebyside-reverse">
         <div class="container" id="whychooseus">
-          <div class="content">
+          <div class="content hidden-left">
             <h1 class="title" style="font-family: Montserrat; font-weight: 600">
               Why Choose Us?
             </h1>
@@ -659,7 +672,7 @@
                   <!-- <span class="cs-topper">Testimonials</span>
                                 <h2 class="cs-title">Our Customer Reviews</h2> -->
                 </div>
-                <ul class="cs-card-group">
+                <ul class="cs-card-group hidden-left">
                   <li class="cs-item">
                     <div class="cs-flex-group">
                       <picture class="cs-picture">
@@ -728,7 +741,7 @@
               height="662"
             />
           </picture> -->
-          <picture class="image-box">
+          <picture class="image-box hidden-right">
             <source
               type="image/webp"
               srcset="/images/whychooseus-600.webp"
@@ -1103,7 +1116,7 @@
 
       <section id="sidebyside" class="sidebyside">
         <div class="container" id="contact">
-          <div class="content">
+          <div class="content hidden-right">
             <h1 class="contact-title">Visit Us</h1>
             <div
               style="display: inline-flex; align-items: start; margin-top: 2em"
@@ -1183,6 +1196,7 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             id="contactmap"
+            class="hidden-left"
           ></iframe>
         </div>
       </section>
@@ -1247,7 +1261,7 @@
 
     <footer id="footer">
       <div class="container">
-        <div class="left-section">
+        <div class="left-section hidden-left">
           <a class="logo footerName" href="/">
             <p>Dr. Priyanka Singla</p>
             <p
@@ -1277,7 +1291,7 @@
         </div>
         <div class="right-section">
           <div class="lists">
-            <ul>
+            <ul class="footer-list hidden-top">
               <li><h2>For consultation</h2></li>
               <li>
                 <!-- <div id="footerconsult">
@@ -1339,7 +1353,7 @@
                 </div>
               </li>
             </ul>
-            <ul class="info-footer">
+            <ul class="info-footer footer-list hidden-top">
               <li><h2>Information</h2></li>
               <li><a href="/">Home</a></li>
               <li><a href="#services">Services</a></li>
@@ -1347,7 +1361,7 @@
               <li><a href="#whychooseus">Why Us</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-            <ul class="contact-footer">
+            <ul class="contact-footer footer-list hidden-top">
               <li><h2>Contact</h2></li>
               <li>
                 <a
@@ -1364,7 +1378,10 @@
         </div>
       </div>
 
-      <div class="credit creditcentre">
+      <div
+        class="credit creditcentre hidden-fade"
+        style="transition-delay: 1000ms"
+      >
         <span class="copyright">Copyright &copy; 2024.&nbsp;</span>
         <div>
           <span>Designed by</span>
@@ -1438,6 +1455,22 @@
           prevEl: '.swiper-button-prev'
         }
       });
+    </script>
+
+    <!-- Lenis -->
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+    <!-- smooth scroll -->
+    <script>
+      const lenis = new Lenis();
+      lenis.on('scroll', (e) => {
+        console.log(e);
+      });
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+      requestAnimationFrame(raf);
     </script>
   </body>
 </html>

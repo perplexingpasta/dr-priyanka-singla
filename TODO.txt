@@ -28,9 +28,10 @@ company carousel  ✅
 nav logo bigger in mobile view  ✅
 hero text too big in mobile view ✅
 
+smooth scroll ✅
+scroll animations ✅
 phone number visible on top in mobile view
 hamburger glitch 
-gsap
 
 google reviews carousel
 use critical CSS
@@ -53,3 +54,5 @@ which laser machines do you use? we'll put the company
 any patients testimonials you got yet?
 domain?
 when free for google meet for google maps
+review us? friend referal
+can add to fb group?
