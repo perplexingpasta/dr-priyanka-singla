@@ -34,6 +34,7 @@ html,
 }
 
 body {
+  /* background-color: #fff5e6; */
   margin: 0;
   line-height: inherit;
 }
@@ -4470,6 +4471,10 @@ ul.hero2 li::before {
 }
 
 @media only screen and (min-width: 0px) {
+  .mobile-only {
+    display: inline-flex;
+  }
+
   #home-h {
     font-family: Halyard-Display;
     font-weight: 700;
@@ -4571,6 +4576,10 @@ ul.hero2 li::before {
 }
 
 @media only screen and (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
   .swiper {
     width: 80%;
     height: 70vh;
@@ -4678,21 +4687,21 @@ ul.hero2 li::before {
 .hidden-left {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-100%);
+  transform: translateX(-50%);
   transition: all 1s;
 }
 
 .hidden-right {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(100%);
+  transform: translateX(50%);
   transition: all 1s;
 }
 
 .hidden-top {
   opacity: 0;
   filter: blur(5px);
-  transform: translateY(-100%);
+  transform: translateY(-50%);
   transition: all 1s;
 }
 
@@ -4708,7 +4717,7 @@ ul.hero2 li::before {
   transform: translate(0);
 }
 
-@media (prefers-reduced-motion) {
+@media (prefers-reduced-motion: reduce) {
   .hidden-left,
   .hidden-right,
   .hidden-top,
